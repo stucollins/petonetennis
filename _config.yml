@@ -1,0 +1,6 @@
+source: src
+markdown: rdiscount
+plugins_dir:     src/_plugins
+permalink: /:year/:month/:day/:title
+rdiscount:
+  extensions: [smart]

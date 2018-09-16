@@ -1,0 +1,339 @@
+body {
+background-color: white;
+}
+#mainDiv {
+  width: 100% ;
+  font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.boxShadow {
+  -moz-box-shadow: 6px 6px 6px #666;
+  -webkit-box-shadow: 6px 6px 6px #666;
+  box-shadow: 6px 6px 6px #666;
+}
+
+
+#titleDiv {
+  background: url('../img/tennistexture.png') repeat-x #ccff33;
+
+  border-top-right-radius: 100px 75px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  -moz-border-radius-topright: 100px 75px;  
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  
+  color: white;
+  font-weight: bold;
+  
+  padding:20px 20px;
+    
+  
+}
+#titleText {
+  width: 280px;
+  margin-left: 160px;  
+  text-align: center;
+  padding: 0px;
+}
+#titleHeading {
+  margin-top: -14px;
+  font-size: 350%;
+  color: #CCFF33;  
+}
+#titleSubHeading {
+  font-size: 200%;
+}
+#titleSubDiv {
+  width: 400px;
+  height: 90px;
+  margin-right: 20px;
+  float: left;
+}
+#titleImg {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  -moz-border-radius-topright: 5px;  
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomright: 5px; 
+  
+  background-image: url('../img/titleImage.gif');
+  width: 150px;
+  height: 90px;
+  margin-right: 20px;
+  float: left;
+
+}
+#titlePetoneImg {
+  
+  background-image: url('../img/petoneBlueGoldTransSoftSmall.png');
+  width: 240px;
+  height: 90px;
+  margin-right: 10px;
+  float: left;
+
+}
+#bodyDiv {
+  border-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  min-height: 540px;
+  font-size: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin-top: 10px;
+
+}
+
+.juniors {
+   height: 1200px !important;
+}
+
+#bodyDivGallery {
+  border-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border: 2px solid #4F77A0;
+  font-size: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin-top: 20px;
+
+}
+.menuItem {
+   float:left;
+   z-index: 99;
+   border-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  margin: 5px;
+  padding: 4px;
+  color: white;
+  font-weight: bold;
+}
+.menuItem:hover {
+     background: #4F77A0;
+}
+#menuDiv {
+   margin-top:5px;
+   height: 20px;
+   margin-left: -5px;
+   clear: both;
+}
+#column1 {
+   width: 33%;
+   float: left;
+   height: 100%;
+}
+#column2 {
+   width: 33%;
+   float: left;
+   border-left: 1px solid #ccff33;
+   border-right: 1px solid #ccff33;
+   height: 100%;
+}
+#column3 {
+   width: 33%;
+   float: left;
+   height: 100%;
+}
+.column {
+  text-align:center;
+  color: black;
+  height: 300px;
+}
+#column2RightLarge {
+   width: 64%;
+   float: left;
+   border-left: 1px solid #ccff33;   
+   height: 100%;
+}
+
+.column img{
+   border: none;
+}
+
+.columnHeading {
+   margin-left: 15px;
+   margin-right: 15px;
+   padding-left: 5px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid #4F77A0;
+   text-align:left;
+   font-weight: bold;   
+}
+.columnText {
+   margin-left: 15px;
+   margin-right: 15px;
+   padding-left: 5px;
+   padding-bottom: 5px;
+   text-align:left;
+  font-weight: normal;
+  padding-top: 10px;
+}
+#sponsor {
+  background-color: #ccff33;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+  margin: 10px 10px 10px 10px;
+  height: 120px;
+   border-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+
+}
+.newsitem {
+   padding: 5px;
+   background-color: #F1F1F2;
+}
+.newstitle {
+   background-color: #4F77A0;
+   color: #FFFFFF;
+   padding: 5px;
+   font-weight: bold;
+   margin-top: 5px;
+}
+#timetableDiv{
+   text-align: center;
+}
+#timetable {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   table-layout: fixed;
+}
+#timetable td {
+   border: 1px solid black;   
+   font-size: 90%;
+   width: 3%;
+}
+#timetable tr {
+   height: 40px;
+}
+#timetable th {
+   border: 1px solid black;
+   text-align: left;
+   font-size: 90%;
+   width: 3%;
+   padding: 0 10px 0 10px;
+}
+#timetable td.dayColumn {
+   width: 6%;
+   font-size: 90%;
+}
+#timetable th.dayColumn {   
+    width: 6%;
+}
+.clearright {
+   clear: both;
+}
+
+td.club {
+   background-color: #ccff33;
+}
+
+td.juniors {
+   background-color: #FFD700;
+}
+
+td.midweek {
+   background-color: #FFCCFF;
+}
+
+td.beginners {
+   background-color: #FFFF99;
+}
+
+td.forty {
+   background-color: #66CCFF;
+}
+
+td.youngguns {
+   background-color: #FF6666;
+}
+
+td.open {
+  background-color: #99FF66;
+}
+
+#timetable td.divider {
+   margin-top: 15px;
+   border: none !important;
+}
+
+div.position {
+   margin-top: 10px;
+   border-bottom: 1px solid #4F77A0;
+}
+
+div.name {
+   background: url('../img/user.png') left no-repeat;
+   padding-left: 20px;
+}
+
+div.phone {
+   background: url('../img/telephone.png') left no-repeat;
+   padding-left: 20px;
+}
+
+div.mobile {
+   background: url('../img/phone.png') left no-repeat;
+   padding-left: 20px;
+}
+
+div.email {
+   background: url('../img/email.png') left no-repeat;
+   padding-left: 20px;
+}
+
+div #secretary {
+   margin-top: 34px;
+}
+
+div #committeeMembers {
+   margin-top: 34px;
+}
+
+.menuItem a {
+   text-decoration: none;
+   color: white;   
+}
+.menuItem a:visited {
+   text-decoration: none;
+   color: white;   
+}
+.menuItem a:active {
+   text-decoration: none;
+   color: white;
+}
+.total {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.pdfclick {
+  cursor: zoom-in;
+}
