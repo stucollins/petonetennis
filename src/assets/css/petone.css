@@ -6,6 +6,14 @@ background-color: white;
   font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
 }
 
+.covid {
+  border-radius: 20px;
+  border: solid 4px #4F77A0;
+  padding: 30px;
+  color: #4F77A0;
+  margin-bottom: 30px;
+
+} 
 .boxShadow {
   -moz-box-shadow: 6px 6px 6px #666;
   -webkit-box-shadow: 6px 6px 6px #666;
